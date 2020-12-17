@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 /* header */
 header {
     display: flex;
@@ -34,6 +35,47 @@ header nav ul li a:hover {
     opacity: 0.5;
 }
 /* main */
+main img {
+    margin-bottom: 50px;
+}
+main h1 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-family:"Arial";
+}
+main div {
+    height: 1000px;
+    margin: 0 150px 0 225px ;
+}
+main p {
+    font-size: 100;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+    font-weight: 600;
+}
+main table {
+    display: flex;
+    background-color: #f1f1f1;
+    height: 500px;
+    width: 1100px;
+}
+main #ttt {
+    margin-left: 0;
+}
+
+.home main table th,
+.home main table td{
+    width: 1100px;
+    margin-left: 0;
+}
+.home main table,
+.home main table th,
+.home main table td {
+    border-bottom: solid 1px rgb(12, 12, 12);
+    border-collapse: collapse;
+    flex-direction: column;}
 
 /* footer */
 footer {
