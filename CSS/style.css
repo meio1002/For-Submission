@@ -45,7 +45,7 @@ main h1 {
     letter-spacing: 1px;
     font-family:"Arial";
 }
-main div {
+main .pdv {
     height: 1000px;
     margin: 0 150px 0 225px ;
 }
@@ -55,28 +55,35 @@ main p {
     line-height: 25px;
     font-weight: 600;
 }
-main table {
+
+main .ttt {
     display: flex;
     background-color: #f1f1f1;
-    height: 500px;
+    justify-content: center;
     width: 1100px;
-}
-main #ttt {
-    margin-left: 0;
+    height: 500px;
 }
 
-.home main table th,
-.home main table td{
-    width: 1100px;
-    margin-left: 0;
-}
 .home main table,
 .home main table th,
 .home main table td {
     border-bottom: solid 1px rgb(12, 12, 12);
-    border-collapse: collapse;
-    flex-direction: column;}
+    border-collapse: collapse;}
 
+main table .tss {
+    padding: 20px 425px 20px 0 ;
+    font-size: 20px;
+}
+main table tbody th {
+    padding: 15px 550px 10px 0 ;  
+}
+
+main table .tss2 {
+    padding: 20px 225px 20px 0 ;
+}
+main table tbody td {
+    padding: 15px 200px 10px 0 ;
+}
 /* footer */
 footer {
     background: #464444;
