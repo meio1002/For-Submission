@@ -54,6 +54,7 @@ main p {
     letter-spacing: 0.5px;
     line-height: 25px;
     font-weight: 600;
+    margin-bottom: 100px;
 }
 
 main .ttt {
@@ -67,15 +68,17 @@ main .ttt {
 .home main table,
 .home main table th,
 .home main table td {
-    border-bottom: solid 1px rgb(12, 12, 12);
+    border-bottom: solid 1px rgb(202, 202, 202);
     border-collapse: collapse;}
 
 main table .tss {
     padding: 20px 425px 20px 0 ;
     font-size: 20px;
+    color: #dd8511;
 }
 main table tbody th {
     padding: 15px 550px 10px 0 ;  
+    color: #888888;
 }
 
 main table .tss2 {
@@ -87,9 +90,18 @@ main table tbody td {
 /* footer */
 footer {
     background: #464444;
-    padding: 11px 0 0 0 ;
+    padding: 11px auto 0 auto ;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
 }
 footer p {
     color: #ffffff;
     text-align: center;
+}
+.footerfixed {
+    min-height: 100vh;
+    position: relative;
+    box-sizing: border-box;
 }
