@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/** 全体に反映させる **/
+ul li a:hover{
+  color: #0bd;
+    }
+html {
+    font-size: 100%;
+}
+p {
+    background-image: url("image/main-bg.jpg");
+}
