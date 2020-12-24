@@ -6,6 +6,7 @@ ul li a:hover{
 html {
     font-size: 100%;
 }
-p {
-    background-image: url("image/main-bg.jpg");
+.back {
+    background-image: url(../image/main-bg.jpg);
+
 }
