@@ -9,8 +9,28 @@ html {
 
 body {
     background-image: url(../image/main-bg.jpg) ;
-    background-position:top center;
+    background-position: top center;
     background-size: 100%;
-    
+}
 
+header img{
+    float: left;
+    width: 15em;
+    margin: 1em 0 1em 13em;
+}
+header ul {
+    margin: 1em 12em 1em 0;
+    float:right;
+    display: flex;
+}
+header ul li {
+    list-style-type: none;
+    margin: 1em;
+    font-size: 1.3em;
+}
+header a {
+    text-decoration: none;
+}
+main {
+    clear: left;
 }
