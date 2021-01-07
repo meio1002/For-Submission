@@ -6,7 +6,11 @@ ul li a:hover{
 html {
     font-size: 100%;
 }
-.back {
-    background-image: url(../image/main-bg.jpg);
+
+body {
+    background-image: url(../image/main-bg.jpg) ;
+    background-position:top center;
+    background-size: 100%;
+    
 
 }
