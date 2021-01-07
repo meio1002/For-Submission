@@ -7,29 +7,37 @@ html {
     font-size: 100%;
 }
 
-body {
+.back {
     background-image: url(../image/main-bg.jpg) ;
     background-position: top center;
     background-size: 100%;
+    height: 100vh;
 }
-
-header img{
+.header1 {
+    width: 50%;
     float: left;
-    width: 15em;
-    margin: 1em 0 1em 13em;
+}
+.header2 {
+    width: 50%;
+    float: right;
+}
+header img{
+    width: 14em;
+    margin: 1em 30%;
 }
 header ul {
-    margin: 1em 12em 1em 0;
-    float:right;
     display: flex;
+    margin: 1em 25%;
 }
 header ul li {
     list-style-type: none;
     margin: 1em;
-    font-size: 1.3em;
+    font-size: 1.4em;
 }
 header a {
     text-decoration: none;
+    color: rgb(66, 3, 3);
+    font-weight: normal;
 }
 main {
     clear: left;
