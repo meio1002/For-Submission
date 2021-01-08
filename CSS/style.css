@@ -4,14 +4,26 @@ ul li a:hover{
   color: #0bd;
     }
 html {
+    color: rgb(65, 39, 2);
     font-size: 100%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-height: 100vh;
+}
+h2 {
+    font-family: 'Philosopher', sans-serif;
+    font-weight: 500;
 }
 
+/** 背景 **/
 .back {
     background-image: url(../image/main-bg.jpg) ;
     background-position: top center;
     background-size: 100%;
     height: 100vh;
+}
+/** 共通ヘッダー **/
+header {
+    height: 15vh;
 }
 .header1 {
     width: 50%;
@@ -28,17 +40,50 @@ header img{
 header ul {
     display: flex;
     margin: 1em 25%;
+    margin-bottom: 0.5em;
 }
 header ul li {
     list-style-type: none;
     margin: 1em;
-    font-size: 1.4em;
+    font-size: 1.5em;
 }
 header a {
     text-decoration: none;
-    color: rgb(66, 3, 3);
+    color: rgb(65, 39, 2);
     font-weight: normal;
 }
 main {
     clear: left;
+    clear: right;
+}
+/** ホーム **/
+.home_main {
+    
+    text-align: center;
+    height: 85vh;
+    line-height: 6.3em;
+    padding-top: 10rem;
+}
+.home_main1 h2{
+    font-size: 5.5em;
+}
+.home_main2 p {
+    font-size: 1.2em;
+    color
+}
+.home_main3 {
+    line-height: 3.5em;
+}
+.home_main button {
+    background: #0bd;
+    color: white;
+    font-size: 120%;
+    font-weight: 700;
+    letter-spacing: 3px;
+    border-radius: 5px;
+    width: 12em;
+    height: 30%;
+}
+.home_main button:hover {
+    filter: brightness(80%);
 }
