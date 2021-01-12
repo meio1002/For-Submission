@@ -56,6 +56,22 @@ main {
     clear: left;
     clear: right;
 }
+/** フッター **/
+.fbox {
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 100px;
+    box-sizing: border-box;
+}
+footer {
+    width: 100%;
+    background :rgb(71, 46, 31);
+    color:#fff;
+    text-align: center;
+    padding: 30px 0;
+    position: absolute;
+    bottom: 0;
+}
 /** ホーム **/
 .home_main {
     
@@ -86,4 +102,19 @@ main {
 }
 .home_main button:hover {
     filter: brightness(80%);
+}
+/** ニュース **/
+.back2 {
+    background-image: url(../image/news-bg.jpg);
+    background-position: top;
+    width: 100%;
+}
+.back2 h2 {
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-size: 5.5em;
+}
+.back2 header {
+    height: 40vh;
 }
