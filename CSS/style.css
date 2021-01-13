@@ -153,8 +153,8 @@ article img {
 /** 仮置き **/
 article {
     background: #787;
+    padding: 0 13%;
 }
-article ,
 .aicon,
 .tata,
 article img,
@@ -163,7 +163,8 @@ article p {
 }
 article h2 {
     font-size: 2em;
-
+    letter-spacing: 3px;
+    margin: 0 0.5em 0 0;
     font-family: "メイリオ";
 }
 aside {
@@ -174,7 +175,7 @@ aside {
 }
 @media ( min-width :600px ){
     .news_flex {
-        width: 65%;
+        width: 100%;
         margin: 0 auto;
         display: flex;
     }
