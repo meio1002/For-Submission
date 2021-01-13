@@ -13,7 +13,14 @@ h2 {
     font-family: 'Philosopher', sans-serif;
     font-weight: 500;
 }
-
+body {
+    font-family: "Helvetica Neue",
+      Arial,
+      "Hiragino Kaku Gothic ProN",
+      "Hiragino Sans",
+      Meiryo,
+      sans-serif;
+  }
 /** 背景 **/
 .back {
     background-image: url(../image/main-bg.jpg) ;
@@ -117,4 +124,64 @@ footer {
 }
 .back2 header {
     height: 40vh;
+}
+/** ニュース本文 **/
+.aicon {
+    color: #fff;
+    background: #0bd;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    text-align: center;
+    margin-right: 3%;
+    padding-top: 10px;
+    float: left;
+}
+.aicon .ue {
+    font-size: 30px;
+    border-bottom: solid 1px #fff;
+    margin :0 10px;
+    padding: 10px 0;
+}
+.aicon .sita {
+    padding :10px 0 0;
+}
+article img {
+    width: 100%;
+    height: auto;
+}
+/** 仮置き **/
+article {
+    background: #787;
+}
+article ,
+.aicon,
+.tata,
+article img,
+article p {
+    padding: 10px 0;
+}
+article h2 {
+    font-size: 2em;
+
+    font-family: "メイリオ";
+}
+aside {
+    background: rgb(14, 197, 111);
+}
+.list ul li {
+    list-style-type: none;
+}
+@media ( min-width :600px ){
+    .news_flex {
+        width: 65%;
+        margin: 0 auto;
+        display: flex;
+    }
+    article {
+        flex: 3;
+    }
+    aside {
+        flex: 2;
+    }
 }
