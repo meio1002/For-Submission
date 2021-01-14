@@ -7,7 +7,6 @@ html {
     color: rgb(65, 39, 2);
     font-size: 100%;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    max-height: 100vh;
 }
 h2 {
     font-family: 'Philosopher', sans-serif;
@@ -60,8 +59,7 @@ header a {
     font-weight: normal;
 }
 main {
-    clear: left;
-    clear: right;
+    clear: both;
 }
 /** フッター **/
 .fbox {
@@ -92,7 +90,6 @@ footer {
 }
 .home_main2 p {
     font-size: 1.2em;
-    color
 }
 .home_main3 {
     line-height: 3.5em;
@@ -211,12 +208,13 @@ aside p {
     background-image: url(../image/menu-bg.jpg) ;
     background-position: top center;
     background-size: 100%;
-    height: 100vh;
+    background-repeat: no-repeat;
 }
 .menu_div {
     clear: both;
     width: 32%;
     margin: auto;
+    margin-bottom: 20%;
     padding-top: 8%;
 }
 .menu_div h2 {
@@ -226,4 +224,27 @@ aside p {
 }
 .menu_div p {
     font-size: 120%;
+}
+/** メニュー本文 **/
+
+.container {
+    display: flex;
+    position: relative;
+    height: auto;
+}
+.item {
+    width: 200px;
+}
+.item img {
+    width: 100%;
+    height: auto;
+}
+
+.menu footer {
+    width: 100%;
+    background :rgb(71, 46, 31);
+    color:#fff;
+    text-align: center;
+    padding: 30px 0;
+    position: absolute;
 }
