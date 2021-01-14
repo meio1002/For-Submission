@@ -110,7 +110,7 @@ footer {
 .home_main button:hover {
     filter: brightness(80%);
 }
-/** ニュース **/
+/** ニュース背景 **/
 .back2 {
     background-image: url(../image/news-bg.jpg);
     background-position: top;
@@ -150,7 +150,6 @@ article img {
     width: 100%;
     height: auto;
 }
-/** 仮置き **/
 article {
     padding:0 13%;
 }
@@ -204,4 +203,27 @@ aside p {
     aside {
         flex: 1;
     }
+}
+/** メニュー背景 **/
+.back3 {
+    background: rgba(253, 253, 253, 0.363);
+    background-blend-mode: screen;
+    background-image: url(../image/menu-bg.jpg) ;
+    background-position: top center;
+    background-size: 100%;
+    height: 100vh;
+}
+.menu_div {
+    clear: both;
+    width: 32%;
+    margin: auto;
+    padding-top: 8%;
+}
+.menu_div h2 {
+    text-align: center;
+    font-size: 5.5em;
+    margin: 10%;
+}
+.menu_div p {
+    font-size: 120%;
 }
