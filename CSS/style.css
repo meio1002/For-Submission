@@ -152,8 +152,7 @@ article img {
 }
 /** 仮置き **/
 article {
-    background: #787;
-    padding: 0 13%;
+    padding:0 13%;
 }
 .aicon,
 .tata,
@@ -164,25 +163,45 @@ article p {
 article h2 {
     font-size: 2em;
     letter-spacing: 3px;
-    margin: 0 0.5em 0 0;
     font-family: "メイリオ";
 }
 aside {
-    background: rgb(14, 197, 111);
+    padding-right: 15%;
+}
+aside h3 {
+    font-size: 120%;
+    font-weight: 600;
+    font-family: sans-serif;
+    border-bottom: solid 3px #0bd;
+    padding: 1em 0.5em 0.5em;
 }
 .list ul li {
     list-style-type: none;
+    border-bottom: solid 1px #787;
+    padding: 0.7em 0.5em;
+}
+.list a{
+    text-decoration: none;
+    color: rgb(65, 39, 2);
+    font-weight: normal;
+}
+.list {
+    margin-bottom: 25%;
+}
+aside p {
+    padding: 1em;
+    padding-left: 0.5em;
 }
 @media ( min-width :600px ){
     .news_flex {
         width: 100%;
-        margin: 0 auto;
+        margin: 3% auto;
         display: flex;
     }
     article {
         flex: 3;
     }
     aside {
-        flex: 2;
+        flex: 1;
     }
 }
