@@ -19,6 +19,13 @@ body {
       "Hiragino Sans",
       Meiryo,
       sans-serif;
+      margin: 0;
+      display: flex;
+      flex-flow: column;
+      min-height: 100vh;
+  }
+  main {
+      flex: 1;
   }
 /** 背景 **/
 .back {
@@ -64,8 +71,8 @@ main {
 /** フッター **/
 .fbox {
     min-height: 100vh;
-    position: relative;
     padding-bottom: 100px;
+    position: relative;
     box-sizing: border-box;
 }
 footer {
@@ -73,8 +80,8 @@ footer {
     background :rgb(71, 46, 31);
     color:#fff;
     text-align: center;
-    padding: 30px 0;
     position: absolute;
+    padding: 30px 0;
     bottom: 0;
 }
 /** ホーム **/
@@ -122,6 +129,7 @@ footer {
 .back2 header {
     height: 40vh;
 }
+
 /** ニュース本文 **/
 .aicon {
     color: #fff;
@@ -209,12 +217,13 @@ aside p {
     background-position: top center;
     background-size: 100%;
     background-repeat: no-repeat;
+    height: 100vh;
 }
 .menu_div {
     clear: both;
     width: 32%;
     margin: auto;
-    margin-bottom: 20%;
+    margin-bottom: 18%;
     padding-top: 8%;
 }
 .menu_div h2 {
@@ -225,26 +234,31 @@ aside p {
 .menu_div p {
     font-size: 120%;
 }
+
 /** メニュー本文 **/
 
 .container {
-    display: flex;
-    position: relative;
-    height: auto;
+    margin: 0 16%;
+    display: grid;
+    gap: 5%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 20% 25% 25%;
 }
 .item {
-    width: 200px;
+    height: 100%;
 }
 .item img {
     width: 100%;
-    height: auto;
 }
+.box-bigl {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
 
-.menu footer {
-    width: 100%;
-    background :rgb(71, 46, 31);
-    color:#fff;
-    text-align: center;
-    padding: 30px 0;
-    position: absolute;
+}
+.fbox3 {
+    min-height: 100vh;
+    height: 275vh;
+    padding-bottom: 100px;
+    position: relative;
+    box-sizing: border-box;
 }
