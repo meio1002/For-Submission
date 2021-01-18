@@ -262,3 +262,93 @@ aside p {
     position: relative;
     box-sizing: border-box;
 }
+/** コンタクト背景　**/
+.back4 {
+    background: rgba(253, 253, 253, 0.363);
+    background-blend-mode: screen;
+    background-image: url(../image/contact-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 95vh;
+}
+.fbox4 {
+    min-height: 100vh;
+    height: 300vh;
+    padding-bottom: 100px;
+    position: relative;
+    box-sizing: border-box;
+}
+.formbox {
+    margin: 0 15%;
+}
+.formbox h2{
+    font-size: 5.5em;
+    margin-bottom: 2%;
+}
+.formbox dl {
+    margin: 0 0 1%;
+}
+.formbox dt {
+    font-size: 1em;
+}
+.formbox dt{
+    margin: 0 0 1%;
+}
+.formbox dd {
+    margin: 0 0 1.5%;
+}
+/**　インプット回り　**/
+.formbox input,
+.formbox textarea {
+    border-radius: 3%;
+    border: solid rgba(255, 255, 255, 0.397);
+    background: rgb(255 254 254 / 55%);
+}
+.formbox button:hover {
+    filter:brightness(80%)
+}
+input:focus,
+textarea:focus {
+    border: solid #0bd;
+    outline:  0;
+}
+
+.formbox input {
+    width: 17em;
+    height: 3em;
+}
+.formbox textarea {
+    width: 34em;
+    height: 7em;
+}
+.formbox button {
+    padding: 0.6em 1em;
+    background: #0bd;
+    color: #fff;
+    width: 5em;
+    border-radius: 5%;
+    font-size: 1.3em;
+}
+/** マップ **/
+.mapbox {
+    display: flex;
+    margin: 5% 15% 0;
+}
+.maptext {
+    width: 25%;
+    padding-right: 4%;
+}
+.transform {
+    border-bottom: solid 3px #0bd;
+    margin-bottom: 10%;
+    padding-bottom: 5%;
+}
+.maptext h3 {
+    transform: scale(0.9, 1);
+    font-size: 150%;
+    font-weight: 100;
+}
+.maptext p {
+    margin: 2% 0 2% 5%;
+    
+}
