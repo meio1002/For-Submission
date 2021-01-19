@@ -22,6 +22,8 @@
 </head>
 
 <body　class="contact">
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v9.0" nonce="E7xuqoEy"></script>
 <div class="fbox4">
 <div class="back4">
 <header>
@@ -43,11 +45,11 @@
         <form action="program.php" method="post">
             <dl>
                 <dt>お名前</dt>
-                <dd><input type="text" name="your-name"></dd>
+                <dd><input type="text" name="your-name" required></dd>
                 <dt>メールアドレス</dt>
-                <dd><input type="email" name="email"></dd>
+                <dd><input type="email" name="email" required></dd>
                 <dt>メッセージ</dt>
-                <dd><textarea></textarea></dd>
+                <dd><textarea name="textarea" ></textarea></dd>
             </dl>
             <button>送信</button>
         </form>
@@ -63,7 +65,21 @@
             <p>休日：土曜、日曜</p>
         </div>
         <div class="iframe">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2393.8203985931023!2d139.7034880543901!3d35.65619801519834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b2e3d4f648d%3A0x7e46faf1726bf4ae!2z5qCq5byP5Lya56S-U0FLQU1B!5e0!3m2!1sja!2sjp!4v1610941428584!5m2!1sja!2sjp" width="800" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d916.3038889969862!2d139.7036452653801!3d35.65621628359158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b5bc514d2f1%3A0xc9d96d92aa2e457e!2z44CSMTUwLTAwMDIg5p2x5Lqs6YO95riL6LC35Yy65riL6LC377yT5LiB55uu77yS77yX4oiS77yR77yVIDZG!5e0!3m2!1sja!2sjp!4v1610944969163!5m2!1sja!2sjp" width="800" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+    </div>
+    <div class="snsbox">
+        <div class="snsbody">
+            <p>Facebook</p>
+            <div class="fb-page" data-href="https://www.facebook.com/facebook" data-tabs="timeline" data-width="300" data-height="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/facebook">Facebook</a></blockquote></div>
+        </div>
+        <div class="snsbody">
+            <p>Twitter</p>
+            <a class="twitter-timeline" data-width="300" data-height="400" href="https://twitter.com/TwitterDev?ref_src=twsrc%5Etfw">Tweets by TwitterDev</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+        <div class="snsbody youtube">
+            <p>YouTube</p>
+            <iframe width="300" height="400" src="https://www.youtube.com/embed/S-HmZp4aOQ8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
 </main>
