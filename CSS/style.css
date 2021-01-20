@@ -323,6 +323,38 @@ aside p {
     position: relative;
     box-sizing: border-box;
 }
+@media ( max-width: 750px ) {
+    .back3 {
+        background-size: cover;
+    }
+    .menu-main {
+        margin-top: 100px;
+    }
+    .menu_div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 0 0 150px;
+        padding: 0;
+    }
+    .menu_div h2 {
+        font-size: 300%;
+    }
+    .menu_div p {
+        padding: 4%;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        padding: 4%;
+        margin: 0;
+        gap: 0;
+    }
+    .menu-footer {
+        position: initial;
+    }
+}
 /** コンタクト背景　**/
 .back4 {
     background: rgba(253, 253, 253, 0.363);
