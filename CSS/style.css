@@ -476,16 +476,11 @@ textarea:focus {
 /** マップ750px以下 **/
 @media ( max-width: 750px ) {
     #contact-header {
-        height: 25vh;
-    }
-    #contact-header li {
-        font-size: 1em;
-    }
-    #contact-header ul {
-        margin: 0;
+        height: 30vh;
     }
     .back4 {
         background-size: cover;
+        height: 100vh;
     }
     .formbox {
         margin: 0 5% 50px;
